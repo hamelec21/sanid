@@ -4,7 +4,7 @@ import Image from "next/image";
 import { Phone, Mail, Share2, ClipboardCopy } from "lucide-react";
 import { useState } from "react";
 
-const shareUrl = "https://tu-dominio.com/sanid"; // 🔁 Reemplaza con tu URL real
+const shareUrl = "https://sanid.vercel.app/"; // 🔁 Reemplaza con tu URL real
 const email = "robin.olguin62@gmail.com"; // Email para el botón
 const whatsappNumber = "56978478737"; // Sin + ni espacios
 const instagramUrl = "https://instagram.com/sanid.2025"; // Cambia por tu IG real
