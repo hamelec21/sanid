@@ -76,6 +76,9 @@ export default function TarjetaPresentacion() {
     }
   };
 
+  // Aquí puedes cambiar el texto de la Resolución Sanitaria
+  const resolucionSanitaria = "Resolución Sanitaria Nº 2513240909";
+
   return (
     <div className="min-h-screen bg-[#91d1db] flex items-center justify-center p-4">
       <div className="w-full max-w-2xl bg-white rounded-3xl shadow-2xl overflow-hidden transition-all">
@@ -94,6 +97,11 @@ export default function TarjetaPresentacion() {
           </h2>
           <p className="uppercase text-sm font-semibold text-green-600 tracking-widest">
             Control de Plagas y Fumigaciones
+          </p>
+
+          {/* Nueva línea para Resolución Sanitaria */}
+          <p className="text-sm font-semibold text-yellow-700 uppercase tracking-wide">
+            {resolucionSanitaria}
           </p>
         </div>
 
